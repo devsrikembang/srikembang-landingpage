@@ -1,5 +1,4 @@
 import { Container } from ".";
-import Logo from "../assets/logo.png";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -14,7 +13,12 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row justify-between gap-6 sm:gap-16">
             <div className="flex flex-col w-full gap-y-4">
               <div className="flex">
-                <img src={Logo} alt="logo" width={260} height={70} />
+                <img
+                  src="https://res.cloudinary.com/dztdpfos7/image/upload/v1644734528/logo_qwjlwx.png"
+                  alt="logo"
+                  width={260}
+                  height={70}
+                />
               </div>
               <div className="flex">
                 <p className="text-gray-600 text-sm sm:text-base font-light leading-6">

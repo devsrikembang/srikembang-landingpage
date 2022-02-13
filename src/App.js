@@ -10,16 +10,6 @@ import {
 import clsx from "clsx";
 import useLoaded from "./hooks/useLoaded";
 
-// Import image here
-import Corn from "./assets/corn.jpeg";
-import Rice from "./assets/rice.jpeg";
-import Gaplek from "./assets/gaplek.jpg";
-import Onggok from "./assets/onggok.jpg";
-import Truck from "./assets/truck.jpg";
-import Money from "./assets/money.jpg";
-import Card from "./assets/card.jpg";
-import Monitor from "./assets/monitor.jpg";
-
 function Hero() {
   const isLoaded = useLoaded();
   return (
@@ -54,25 +44,29 @@ function Hero() {
 function Program() {
   const programs = [
     {
-      image: Money,
+      image:
+        "https://res.cloudinary.com/dztdpfos7/image/upload/v1644734519/program/money_qty5oh.jpg",
       name: "Pembiayaan",
       description:
         "Menyalurkan dukungan dan edukasi finansial berbasis teknologi bagi para petaniuntuk meningkatkan produktivitas pertanian"
     },
     {
-      image: Card,
+      image:
+        "https://res.cloudinary.com/dztdpfos7/image/upload/v1644734519/program/monitor_ltbwn3.jpg",
       name: "Manajemen Rantai Pasok",
       description:
         "Memfasilitasi akses kebutuhan melalui mitra penyedia sarana kebutuhan di bidang pertanian secara transparan dan terstandarisasi"
     },
     {
-      image: Truck,
+      image:
+        "https://res.cloudinary.com/dztdpfos7/image/upload/v1644734520/program/truck_tbttvn.jpg",
       name: "Distribusi dan Penjualan",
       description:
         "Memfasilitasi petani untuk menjual dan mendistribusikan hasil panen secara langsung dan mudah dengan harga yang terstandarisasi"
     },
     {
-      image: Monitor,
+      image:
+        "https://res.cloudinary.com/dztdpfos7/image/upload/v1644734519/program/monitor_ltbwn3.jpg",
       name: "Pengolahan Hasil Panen",
       description:
         "Memiliki fasilitas pengolahan hasil panen dari bahan mentah menjadi bahan yang siap didistribusi melalui mitra yang terintegritas dan diawasi langsung oleh kami"
@@ -111,19 +105,23 @@ function Program() {
 function Product() {
   const products = [
     {
-      image: Corn,
+      image:
+        "https://res.cloudinary.com/dztdpfos7/image/upload/v1644734481/product/corn_z5kai4.jpg",
       name: "Jagung"
     },
     {
-      image: Rice,
+      image:
+        "https://res.cloudinary.com/dztdpfos7/image/upload/v1644734481/product/rice_lgylhv.jpg",
       name: "Beras"
     },
     {
-      image: Gaplek,
+      image:
+        "https://res.cloudinary.com/dztdpfos7/image/upload/v1644734694/product/gaplek_hvf7ta.jpg",
       name: "Gaplek"
     },
     {
-      image: Onggok,
+      image:
+        "https://res.cloudinary.com/dztdpfos7/image/upload/v1644734601/product/onggok_m60bv6.jpg",
       name: "Tepung Onggok"
     }
   ];

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Container } from ".";
-import Logo from "../assets/logo.png";
 import { MenuIcon } from "@heroicons/react/outline";
 
 const navLinks = [
@@ -90,7 +89,12 @@ export default function Header() {
     <header className="flex w-full bg-white py-4">
       <Container>
         <div className="flex w-full justify-between items-center">
-          <img src={Logo} alt="logo" width={177} height={48} />
+          <img
+            src="https://res.cloudinary.com/dztdpfos7/image/upload/v1644734528/logo_qwjlwx.png"
+            alt="logo"
+            width={177}
+            height={48}
+          />
           <Nav />
           <NavMobile />
         </div>
