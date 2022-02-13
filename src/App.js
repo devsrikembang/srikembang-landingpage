@@ -23,7 +23,7 @@ import Monitor from "./assets/monitor.jpg";
 function Hero() {
   const isLoaded = useLoaded();
   return (
-    <div className="flex flex-col h-[32rem] sm:h-[42rem] bg-cover bg-center bg-slate-800 bg-[url('main-hero.jpg')] mb-6">
+    <div className="flex flex-col h-[32rem] sm:h-[42rem] bg-cover bg-center bg-slate-800  mb-6">
       <div className="flex w-full h-full items-center bg-black bg-opacity-10">
         <Container>
           <div
