@@ -10,7 +10,7 @@ import {
 import clsx from "clsx";
 import useLoaded from "./hooks/useLoaded";
 
-// Import Image here
+// Import image here
 import Corn from "./assets/corn.jpeg";
 import Rice from "./assets/rice.jpeg";
 import Gaplek from "./assets/gaplek.jpg";
